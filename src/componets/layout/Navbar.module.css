@@ -1,0 +1,38 @@
+@media only screen and (max-device-width: 900px){
+	.navbar{
+		padding:3rem;
+		
+	}
+}
+
+:root{
+  --amarelo: #ffbb33;
+  --branco: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222;
+  padding: 1em;
+
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.item {
+  margin-right: 1em;
+}
+
+.item a {
+  color: var(--branco);
+  text-decoration: none;
+}
+
+.item a:hover {
+  color: var(--amarelo);
+}

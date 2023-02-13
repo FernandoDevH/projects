@@ -1,0 +1,40 @@
+:root {
+  --preto: #222222;
+  --branco: #ffffff;
+  --amarelo: #ffbb33;
+}
+
+.footer {
+  background-color: var(--preto);
+  color: var(--branco);
+  padding: 3.2em;
+  text-align: center;
+}
+
+.socialmidias {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.socialmidias li {
+  margin: 0 1em;
+}
+
+.socialmidias li:hover {
+  color: var(--amarelo);
+  cursor: pointer;
+}
+
+.socialmidias svg {
+  font-size: 1.5rem;
+}
+.copyRight {
+  margin-top: 2rem;
+}
+
+.copyRight span {
+  font-weight: bold;
+  color: var(--amarelo)
+}
+

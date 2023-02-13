@@ -1,0 +1,23 @@
+:root{
+  --branco: #ffffff;
+  --preto: #222;
+  --amarelo: #ffbb33;
+}
+
+.btn{
+  background-color:var(--preto);
+  color: var(--branco);
+  text-decoration: none;
+  height: 4rem;
+  width: auto;
+  align-items: center;
+  text-align: center;
+  padding: .7rem;
+  display: flex;
+  transition: .5s;
+  border-radius: 0.5rem;
+}
+
+.btn:hover{
+  color: var(--amarelo);
+}

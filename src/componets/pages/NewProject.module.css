@@ -1,0 +1,19 @@
+:root {
+  --preto: #222222;
+  --amarelo: #ffbb33;
+  --cinza: #7b7b7b;
+}
+
+.newprojectContainer {
+  width: 450px;
+  margin: 0 auto;
+  padding: 3em;
+  
+}
+.newprojectContainer h1 {
+  margin-bottom: 0.5rem;
+}
+
+.newprojectContainer p {
+  color: var(--cinza);
+}

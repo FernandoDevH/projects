@@ -1,0 +1,28 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh;
+	
+}
+@media only screen and (min-width: 768px){
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 99vw;
+  height: 100vh;
+  overflow-x: hidden;
+scroll-behavior: smooth;
+	scroll-margin:0;
+}

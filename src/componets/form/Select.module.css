@@ -1,0 +1,23 @@
+:root {
+  --preto: #222222;
+  --amarelo: #ffbb33;
+  --cinza: #7b7b7b;
+  --branco: #ffffff;
+}
+
+.formControl {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.formControl label {
+  margin-bottom: 0.6rem;
+  font-weight: bold;
+}
+
+.formControl select {
+  padding: 0.7rem;
+  border:none;
+  background-color: var(--branco)
+}

@@ -1,0 +1,20 @@
+:root {
+  --preto: #222222;
+  --amarelo: #ffbb33;
+  --cinza: #7b7b7b;
+  --branco: #ffffff;
+}
+
+.btn{
+  background-color: var(--preto);
+  color: var(--branco);
+  padding: 0.7rem 1.2rem;
+  text-decoration: none;
+  transition: 0.5s;
+  cursor: pointer;
+  border:none;
+}
+
+.btn:hover {
+  color:var(--amarelo);
+}

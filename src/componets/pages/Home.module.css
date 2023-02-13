@@ -1,0 +1,39 @@
+:root {
+  --preto: #222222;
+  --amarelo: #ffbb33;
+  --cinza: #7b7b7b;
+}:root {
+  --preto: #222222;
+  --amarelo: #ffbb33;
+  --cinza: #b7b7b7;
+}
+
+.homeContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+}
+
+.homeContainer h1 {
+  font-size: 2.5rem;
+  margin-bottom: .5rem;
+}
+
+.homeContainer h1 span {
+  color: var(--amarelo);
+  background-color: var(--preto);
+  padding: 0 .2rem;
+  border-radius: .5rem;;
+}
+
+.homeContainer p {
+  margin-bottom: 1.5rem;
+  color: var(--cinza)
+}
+
+.homeContainer img {
+  width: 250px;
+  margin: 2rem 0;
+}
